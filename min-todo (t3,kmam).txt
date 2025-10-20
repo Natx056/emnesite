@@ -1,0 +1,74 @@
+Hvordan var det lige, man startede kodning? (Kenny)
+
+    Nyt projekt i VSCode
+    Organisering af mapper og filer
+    Diverse helt basale ting
+
+TO DO
+
+0. Lav layoutdiagrammer 
+   Helst først, men kan også vente til efter trin 4.
+   Kræver strukturel forståelse af prototypen, html og classes
+1. Nyt projekt i VSCode
+2. Mapper og filer organiseret til projektet
+    - [emnesite] rod-mappen (hvor du har de filer, du bruger i websitet)
+        > [css] mappen med din(e) stylesheets (.css)
+        > [js] mappen til eventuelt javascript (.js)
+        > [images] mappen med dine billeder (.webp)
+        > [fonts] mappen med dine typefaces (.woff)
+        > [video] hvis du har video, der skal hostes på sitet
+        > index.html (forsiden)
+        > underside-1.html (navngiv selv undersiderne meningsfuldt)
+        > underside-2.html
+        > underside-3.html
+        > underside-4.html
+        > underside-5.html
+        > underside-6.html
+        > underside-7.html
+        > readme.md (med en kort dokumentation af projektets formål og struktur)
+3. Opret projekt i Git og publicér til GitHub
+    - .gitignore (af store filer, systemfiler og evt. andet)
+4. Basale ting
+    - Basal html
+        - html skelet (emmet !)
+        - meta title, link favicon, link css, html lang
+            - <meta charset="UTF-8"> og <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        - header (med indhold, der går igen på siderne)
+        - footer (med indhold, der går igen på siderne)
+    - Basal css
+        ? css reset (base.css)
+        - generelt (generel.css)
+        - layout (layout.css)
+        ? komponenter (components.css)
+    - Basalt indhold
+        - Tekst
+        - Billeder
+        - Video
+        - Placeholders (til indhold, du ikke har endnu)
+    - Basale værktøjer
+        - VS Code Settings + Extensions
+            - Settings:
+                - Default formatter
+                - Format on save
+                ? Auto Save > AfterDelay
+                ? Auto Indent On Paste
+
+            - Live Server
+                - Custom Browser > Chrome:PrivateMode
+            - Html/Css validator
+            - Chrome Browser DevTools
+            ? CSS Peek
+            ? Prettier (Jeg bruger VSCode's egen formatter)
+        - Git + GitHub
+        - Billedoptimering
+            - Squoosh (til få billeder)
+            - XnConvert (til billeder)
+5. Kig på dine layoutdiagrammer (og evt. dine prototyper)
+6. Opmarkér dit indhold på alle siderne semantisk
+    - header, main, nav, section, article, footer osv.
+
+/***** SÅ ER DU I GANG *****/
+
+7. Style dit indhold mobile-first
+8. Style dit indhold bredere end mobile/smalt
+    - Inkl. responsiv og mediespecifik styling (fx media query)
