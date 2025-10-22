@@ -162,7 +162,8 @@ p {
   margin: 1em;
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200px;
+  font-size: 18px;
+  font-weight: 400;
   font-style: normal;
 }
 .roundpic {
@@ -183,7 +184,7 @@ p {
 }
 .font {
   font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
+  font-optical-sizing: x-large;
   font-weight: 800px;
   font-style: normal;
 }
@@ -217,3 +218,15 @@ p {
   font-weight: 600;
   font-style: normal;
 }
+.center {
+  text-align: center;
+  
+  color: #c13f77;
+  
+
+  
+}
+
+/* .startpics{
+    text-align: center;
+} */
