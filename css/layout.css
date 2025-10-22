@@ -7,21 +7,6 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.foot {
-  display: flex;
-  margin: 1em;
-  padding: 0;
-  justify-content: space-around;
-  list-style-type: none;
-  li {
-    margin: 0.5em;
-  }
-  font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200px;
-  font-style: normal;
-}
-
 .startpics{
     display: flex;
     flex-direction: column;
